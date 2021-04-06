@@ -1,0 +1,76 @@
+﻿{
+  "version": "1.0.0",
+  "restore": {
+    "projectUniqueName": "/Users/admin/Desktop/Software-Testing-Introduction/Twitch Test/Twitch Test/Twitch Test.csproj",
+    "projectName": "Twitch Test",
+    "projectPath": "/Users/admin/Desktop/Software-Testing-Introduction/Twitch Test/Twitch Test/Twitch Test.csproj",
+    "outputPath": "/Users/admin/Desktop/Software-Testing-Introduction/Twitch Test/Twitch Test/obj/",
+    "projectStyle": "PackageReference",
+    "originalTargetFrameworks": [
+      "netcoreapp3.1"
+    ],
+    "sources": {
+      "https://api.nuget.org/v3/index.json": {}
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "projectReferences": {}
+      }
+    },
+    "warningProperties": {
+      "warnAsError": [
+        "NU1605"
+      ]
+    }
+  },
+  "frameworks": {
+    "netcoreapp3.1": {
+      "dependencies": {
+        "Microsoft.NET.Test.Sdk": {
+          "target": "Package",
+          "version": "[16.4.0, )"
+        },
+        "NUnit3TestAdapter": {
+          "target": "Package",
+          "version": "[3.15.1, )"
+        },
+        "Selenium.Support": {
+          "target": "Package",
+          "version": "[3.0.0, )"
+        },
+        "Selenium.WebDriver": {
+          "target": "Package",
+          "version": "[3.0.0, )"
+        },
+        "Selenium.WebDriverBackedSelenium": {
+          "target": "Package",
+          "version": "[3.0.0, )"
+        },
+        "System.Security.Permissions": {
+          "target": "Package",
+          "version": "[5.0.0, )"
+        },
+        "nunit": {
+          "target": "Package",
+          "version": "[3.12.0, )"
+        }
+      },
+      "imports": [
+        "net461",
+        "net462",
+        "net47",
+        "net471",
+        "net472",
+        "net48"
+      ],
+      "assetTargetFallback": true,
+      "warn": true,
+      "frameworkReferences": {
+        "Microsoft.NETCore.App": {
+          "privateAssets": "all"
+        }
+      },
+      "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.300/RuntimeIdentifierGraph.json"
+    }
+  }
+}
