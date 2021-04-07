@@ -113,7 +113,7 @@ namespace Twitch_Test
         [Test]
         public void sendMessageToChatErrorTest()
         {
-            driver.Navigate().GoToUrl("https://www.twitch.tv/uccleague4");
+            driver.Navigate().GoToUrl("https://www.twitch.tv/stray228");
             Thread.Sleep(3000);
         
             var chatTextField = driver.FindElement(_chatTextField);
